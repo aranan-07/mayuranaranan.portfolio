@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mayuran Aranan — Computer Science Portfolio</title>
+  <meta name="description" content="Computer Science undergraduate portfolio — projects, skills, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- Liquid / goo cursor canvas -->
+  <canvas id="liquidCanvas" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand-dot"></span>
+        <span class="brand-text">Mayuran Aranan</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn primary" href="./assets/Mayuran_Aranan_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="badge">
+            <span class="pulse"></span>
+            <span>Computer Science Undergraduate</span>
+          </div>
+
+          <h1>
+            Building <span class="grad">user-friendly</span> apps<br />
+            with clean engineering.
+          </h1>
+
+          <p class="lead">
+            I’m <strong>Mayuran Aranan</strong>. I enjoy crafting modern front-end experiences and connecting them with
+            solid
+            back-end logic. I’m looking for an internship where I can learn fast, ship features, and contribute to a
+            team.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="quick-info">
+            <div class="qi">
+              <div class="qi-k">Location</div>
+              <div class="qi-v">Wellawatte, Colombo</div>
+            </div>
+            <div class="qi">
+              <div class="qi-k">Email</div>
+              <div class="qi-v"><a href="mailto:arananmayuren.@gmail.com">arananmayuren.@gmail.com</a></div>
+            </div>
+            <div class="qi">
+              <div class="qi-k">Phone</div>
+              <div class="qi-v"><a href="tel:+94713052718">+94 71 305 2718</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card" role="img" aria-label="Profile image card">
+          <div class="hero-card-inner">
+            <img class="avatar" src="./assets/profile.webp" alt="Mayuran Aranan portrait" />
+          </div>
+          <div class="hint">
+            Try moving your cursor <span class="hide-sm">The background is “liquid”.</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-glow" aria-hidden="true"></div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Selected work from university and personal builds.</p>
+        </div>
+
+        <div class="grid cards">
+          <article class="card">
+            <div class="card-top">
+              <div class="tag">Python</div>
+              <div class="date">University of Westminster</div>
+            </div>
+            <h3>Traffic Data Analysis</h3>
+            <p>
+              Built a Python-based system to analyse and manage real-world traffic records, including storing, updating,
+              processing, and interpreting patterns to generate structured outputs.
+            </p>
+            <div class="stack">
+              <span>Python</span><span>Data handling</span><span>Logic</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <div class="tag">Web</div>
+              <div class="date">University of Westminster</div>
+            </div>
+            <h3>Quality Education Web Page</h3>
+            <p>
+              Designed a responsive web page for SDG Goal 4. Clean layout with modern styling, plus interactive
+              JavaScript
+              components to improve user engagement.
+            </p>
+            <div class="stack">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <div class="tag">Mobile + API</div>
+              <div class="date">SDGP</div>
+            </div>
+            <h3>AgriVora — Plant Recommendation App</h3>
+            <p>
+              A mobile app that recommends suitable plants/crops based on soil properties, pH, GPS, and weather data.
+              Flutter front-end integrated with a FastAPI backend and Python ML models, using Firebase.
+            </p>
+            <div class="stack">
+              <span>Flutter</span><span>FastAPI</span><span>Python (ML)</span><span>Firebase</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <div class="tag">Java</div>
+              <div class="date">Individual project</div>
+            </div>
+            <h3>Plane Ticket Booking System</h3>
+            <p>
+              Java console application for airline seat reservation and ticket management: search flights, choose seats,
+              confirm bookings, and generate a ticket with passenger and route details.
+            </p>
+            <div class="stack">
+              <span>Java</span><span>OOP</span><span>Console UI</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>Tools and technologies I’m comfortable with.</p>
+        </div>
+
+        <div class="grid cols-2">
+          <div class="panel">
+            <h3>Programming</h3>
+            <div class="pill-row">
+              <span class="pill">Python</span>
+              <span class="pill">Java</span>
+              <span class="pill">HTML</span>
+              <span class="pill">CSS</span>
+              <span class="pill">JavaScript</span>
+              <span class="pill">MySQL</span>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3>Tools</h3>
+            <div class="pill-row">
+              <span class="pill">Figma</span>
+              <span class="pill">VS Code</span>
+              <span class="pill">GitHub</span>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3>Strengths</h3>
+            <ul class="bullets">
+              <li>Problem solving</li>
+              <li>Critical thinking</li>
+              <li>Time management</li>
+              <li>Creativity</li>
+              <li>Team management</li>
+              <li>Leadership</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Languages</h3>
+            <div class="pill-row">
+              <span class="pill">English</span>
+              <span class="pill">Tamil</span>
+              <span class="pill">Sinhala</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="leadership" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Leadership & Activities</h2>
+          <p>Roles and extracurricular contributions.</p>
+        </div>
+
+        <div class="grid cols-2">
+          <div class="panel">
+            <h3>Leadership</h3>
+            <ul class="timeline">
+              <li>
+                <div class="t-title">Students’ Union (Finance Team)</div>
+                <div class="t-meta">Informatics Institute of Technology · 2025/2026</div>
+              </li>
+              <li>
+                <div class="t-title">Treasurer — Narunthingal Committee</div>
+                <div class="t-meta">IIT · 2026</div>
+              </li>
+              <li>
+                <div class="t-title">Senior Prefect</div>
+                <div class="t-meta">St. John’s College, Jaffna · 2023</div>
+              </li>
+              <li>
+                <div class="t-title">Assistant Secretary — Tamil Union</div>
+                <div class="t-meta">St. John’s College · 2023</div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Highlights</h3>
+            <ul class="bullets">
+              <li>Initiated and coordinated events such as Stagecraft 2026.</li>
+              <li>Won All Island Carnatic instrumental competition 5 times (2017–2023).</li>
+              <li>Volunteered for IIT Iftar 2025 and Narunthingal 2025.</li>
+            </ul>
+
+            <div class="split">
+              <div>
+                <h4 class="mini">Certifications</h4>
+                <ul class="bullets">
+                  <li>Hult Prize — Participation</li>
+                  <li>Codesprint — Participation</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="mini">Education</h4>
+                <ul class="bullets">
+                  <li>BEng (Hons) Computer Science (2024–Present), IIT (UoW)</li>
+                  <li>G.C.E. O/L: 5A, 4B</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Want to discuss an internship or a project? Let’s talk.</p>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-left">
+            <div class="contact-line">
+              <div class="cl-k">Email</div>
+              <div class="cl-v"><a href="mailto:arananmayuren.@gmail.com">arananmayuren.@gmail.com</a></div>
+            </div>
+            <div class="contact-line">
+              <div class="cl-k">Phone</div>
+              <div class="cl-v"><a href="tel:+94713052718">+94 71 305 2718</a></div>
+            </div>
+            <div class="contact-line">
+              <div class="cl-k">Address</div>
+              <div class="cl-v">37, Fernando Road, Wellawatte, Colombo-06</div>
+            </div>
+
+            <div class="contact-actions">
+              <a class="btn primary" href="./assets/Mayuran_Aranan_CV.pdf" target="_blank" rel="noopener">Open CV</a>
+              <a class="btn ghost" href="#top">Back to top</a>
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <div class="note">
+              <div class="note subtle">
+                <div class="note-title">Liquid cursor</div>
+                <p>
+                  The liquid effect is Canvas-based (fast) and respects “reduced motion” accessibility settings.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <footer class="footer">
+            <div>© <span id="year"></span> Mayuran Aranan</div>
+            <div class="footer-right">
+              <span class="tiny">Built with HTML + CSS + JS</span>
+            </div>
+          </footer>
+        </div>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
